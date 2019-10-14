@@ -48,10 +48,10 @@ Flex Container Properties
   * wrap-reverse
 * flex-flow
   > Short hand for flex direction and flex wrap.
-  flex-flow: <flex-direction> <flex-wrap>
+  > flex-flow: <flex-direction> <flex-wrap>
 * justify-content
   > Align items and distribute any extra spacing in the parent container.
-  The alignment is always along the main axis.
+  > The alignment is always along the main axis.
   * flex-start
   * flex-end
   * center
@@ -74,30 +74,30 @@ Flex Container Properties
   * space-around
   * stretch
   
-  Flex item properties
+Flex item properties
   
   * order
     > Control the order of items in the flex container.
-    Integer value
+    > Integer value
   * flex-grow
     > Dictates what amount of the available space inside the flex container the item should take up.
-    Relative to the other items in the container.
-    Default value is 0-items do not grow.
-    flex-grow value of 1 - flex items grow evenly.
+    > Relative to the other items in the container.
+    > Default value is 0-items do not grow.
+    > flex-grow value of 1 - flex items grow evenly.
   * flex-shrink
     > Dictates the shrink factor of the flex items when the default size of flex items is larger than the flex container.
-    Relative to the other items in the container.
-    Default value is 1.
+    > Relative to the other items in the container.
+    > Default value is 1.
   * flex-basis
     > Set the initial size of a flex item.
-    Pixels, percentages or relative units.
-    Default value is auto.
+    > Pixels, percentages or relative units.
+    > Default value is auto.
   * flex
     > Short hand for flex grow, flex shrink and flex basis.
-  flex: <flex-grow> <flex-shrink> <flex-basis>
-  Default -> flex: 0 1 auto;
+    > flex: <flex-grow> <flex-shrink> <flex-basis>
+    > Default -> flex: 0 1 auto;
   
-  flex values
+flex values
   
   /* One value, unitless number: flex-grow */
   flex: 2;
@@ -117,9 +117,9 @@ Flex Container Properties
   flex: 2 2 10%;
   
   * align-self
-    > Align the items individualyy.
-    Values like auto, flex-sart, flex-end, center and stretch.
-    Overrides the align-items value of the flex container.
+    > Align the items individually.
+    > Values like auto, flex-sart, flex-end, center and stretch.
+    > Overrides the align-items value of the flex container.
   
 
 Source: https://www.udemy.com/course/css-flexbox-mastering-the-basics/
