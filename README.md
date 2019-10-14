@@ -9,9 +9,9 @@ What is Flexbox?
 
 CSS Flexible Box Module -> one-dimensional layout model
 
-> flexible and efficient layouts
-> distribute space among items
-> control their aligment
+>> flexible and efficient layouts
+>> distribute space among items
+>> control their aligment
 
 Layout modes
 
