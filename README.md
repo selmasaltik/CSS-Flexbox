@@ -9,9 +9,9 @@ What is Flexbox?
 
 CSS Flexible Box Module -> one-dimensional layout model
 
->> flexible and efficient layouts
->> distribute space among items
->> control their aligment
+* flexible and efficient layouts
+* distribute space among items
+* control their aligment
 
 Layout modes
 
@@ -113,7 +113,7 @@ Flex Container Properties
   /* Two values: flex-grow | flex-shrink */
   flex: 2 2;
   
-  / Three values: flex-grow | flex-shrink | felx-basis */
+  / Three values: flex-grow | flex-shrink | flex-basis */
   flex: 2 2 10%;
   
   > align-self
